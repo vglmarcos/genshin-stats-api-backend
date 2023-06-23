@@ -8,8 +8,8 @@ app = Flask(__name__)
 CORS(app)
 api = Api(app)
 
-ltuid = 214511685
-token = "FOXvtxfCrqzreTPVNggE029XNs04hdCMJgJsjrvg"
+ltuid = 0
+token = ""
 
 class AllAPI(Resource):
     def __init__(self):
